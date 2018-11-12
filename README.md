@@ -1,5 +1,5 @@
 # ARdetection
-The atmospheric river detection algorithm used in Goldenson et al. (2018, submitted).
+The atmospheric river detection algorithm used in <A href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0268.1">Goldenson et al. (2018)</A>.
 
 The algorithm takes as input a 2D field (total column integrated precipitable water, or vertically integrated vapor flux), for some subset of latitudes and longitudes in the extratropics. It has primarily been tested for a box that extends from near Hawaii on the lower left to encompass Alaska and the West Coast of North America. A threshold value of 2cm precipitable water is used in this example, and in Goldenson et al. (2018), to mask the data, which is empirically appropriate for the region in question.
 
